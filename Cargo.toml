@@ -1,0 +1,15 @@
+[package]
+name = "xlsx_to_twmap"
+version = "0.1.0"
+edition = "2021"
+description = "Creates a teeworlds map from an excel document"
+license-file = "LICENSE"
+repository = "https://github.com/hardliner66/xlsx-to-twmap"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+calamine = "0.24.0"
+clap = { version = "4.5.4", features = ["derive"] }
+ndarray = "0.15.6"
+twmap = "0.12.0"
